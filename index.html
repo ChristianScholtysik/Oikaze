@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Oikaze</title>
+  </head>
+  <body>
+    <header
+      class="h-screen bg-center bg-no-repeat bg-cover"
+      style="
+        background-image: url(./assets/img/su-san-lee-E_eWwM29wfU-unsplash.jpg);
+      ">
+      <div class="navbar h-24 bg-white/40">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Item2</a>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-3xl">追い風</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-xl">
+            <li><a>Oikaze</a></li>
+            <li><a>Tailwind</a></li>
+            <li><a>Rückenwind</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn btn-outline btn-secondary text-xl">Login In</a>
+        </div>
+      </div>
+
+      <section class="flex flex-col justify-center items-center h-3/5 relative">
+        <h1 class="text-9xl">Visit Japan</h1>
+        <p class="text-4xl absolute bottom-40 left-160">
+          start your journey now!
+        </p>
+      </section>
+    </header>
+  </body>
+</html>
