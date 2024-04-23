@@ -10,12 +10,12 @@ Live demo [_here_](https://christianscholtysik.github.io/Oikaze/).
 
 ## General Information
 
-- Website Project to learn SASS / SCSS
+- Website Project to learn Tailwind
 
 ## Technologies Used
 
 - HTML
-- CSS
+- Tailwind CSS
 
 ## Screenshots
 
